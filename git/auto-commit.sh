@@ -2,7 +2,7 @@
 set -e  # エラー時に停止
 
 # コミットメッセージの共通部分
-COMMIT_MSG_SUFFIX="日本語1行コミットメッセージ(AI署名なし)だけを出力してください。"
+COMMIT_MSG_SUFFIX="英語1行コミットメッセージ(AI署名なし)だけを出力してください。Conventional Commitsに従ってください。対応するgitmojiもつけてください。"
 
 git status
 
